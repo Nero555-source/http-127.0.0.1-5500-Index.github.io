@@ -1,0 +1,104 @@
+.container{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url('images/thao_luan_nhom.png');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    font-variant: small-caps;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li{
+    position: relative;
+    display: inline-block;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+header>.company-info{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    top: 230px;
+    left: 15px;
+}
+header>.company-info>h1{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    text-shadow: 0 0 5px orangered;
+    font-variant: small-caps;
+    font-family: fantasy;
+    font-size: 35px;
+}
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>footer{
+    line-height: 50px;
+    background-color: orangered;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+    color: white;
+}
+.container>aside{
+    min-height: 400px;
+    width: 25%;
+    float: right;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url(Images/dot1.png) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    transition: 0.3s;
+}
+.vmenu a:hover{
+    background: url(Images/dot2.png) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
